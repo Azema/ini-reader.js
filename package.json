@@ -1,0 +1,31 @@
+{
+  "name": "ini-reader",
+  "version": "0.0.1",
+  "description": "Reader INI file",
+  "main": "ini-reader.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_module/tap/bin/tap.js test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Azema/ini-reader.js"
+  },
+  "keywords": [
+    "ini",
+    "reader",
+    "nodejs"
+  ],
+  "author": "Manuel Hervo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Azema/ini-reader.js/issues"
+  },
+  "homepage": "https://github.com/Azema/ini-reader.js",
+  "dependencies": {
+    "lodash": "2.4.1",
+    "tap": "0.4.8"
+  }
+}
