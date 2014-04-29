@@ -51,9 +51,9 @@ var extendSection = function(obj, sectionName) {
   obj[to] = origTo;
 };
 
-var parse = function(iniString, done) {
+var parse =
+module.exports.parse = function(iniString, done) {
   iniString = iniString.trim();
-  // console.log(iniString);
   var eol = '\n';
   if (/\r\n/.test(iniString)) {
     eol = '\r\n';
@@ -78,7 +78,6 @@ var parse = function(iniString, done) {
   });
   done(null, out);
 };
-module.exports.parse = parse;
 
 module.exports.load = function(file, done) {
   if (!fs.existsSync(file)) {

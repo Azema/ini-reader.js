@@ -25,7 +25,9 @@
   },
   "homepage": "https://github.com/Azema/ini-reader.js",
   "dependencies": {
-    "lodash": "2.4.1",
+    "lodash": "2.4.1"
+  },
+  "devdependencies": {
     "tap": "0.4.8"
   }
 }
