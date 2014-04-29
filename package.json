@@ -27,7 +27,7 @@
   "dependencies": {
     "lodash": "2.4.1"
   },
-  "devdependencies": {
+  "devDependencies": {
     "tap": "0.4.8"
   }
 }
